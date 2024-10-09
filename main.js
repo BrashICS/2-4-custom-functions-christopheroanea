@@ -19,3 +19,21 @@ function circle_area() {
 
 /*****  Your code goes below  *****/
 
+
+
+
+function to_fahrenheit() {
+
+    let celsius = Number(prompt("How many degrees celius do you feel it is outside today?"))
+    let fahrenheit = (celsius * 9/5) + 32
+    console.log(`${fahrenheit} Fahrenheit is equal to ${celsius}`)
+}
+
+function roll() {
+            let roll = Math.random() * 6
+            roll = (Math.floor(Math.random() * 6))
+            console.log(`The dice you rolled is ${roll}`)
+}
+
+
+
