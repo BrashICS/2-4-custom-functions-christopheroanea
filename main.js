@@ -35,5 +35,21 @@ function roll() {
             console.log(`The dice you rolled is ${roll}`)
 }
 
+function roll_20() {
+    let roll_20 = Math.random() * 20
+    roll_20 = (Math.floor(Math.random() * 20))
+    console.log(`The dice you rolled is ${roll_20}`)
+    if (roll_20 < 6) {
+    alert("you got and uncommon")
+    }
+    if (roll_20 < 15) {
+        alert("You got legendary")
+    }
+}
+
+
+
+    
+
 
 
